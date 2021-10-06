@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+  <title>Développeuse en recherche d'emploi - Aurélie Maillot</title>
+	<meta charset="utf-8"/>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <meta http-equiv="X-UA-Compatible" content="ie=edge"/>
+	<meta name="author" content="aurélie maillot"/>
+  <meta name="description" content="Bonjour, je suis Aurélie, Développeuse spécialisée en PHP / Symfony, actuellement en recherche d'emploi dans la région de Nantes."/>
+  <meta property="og:type" content="website"/>
+  <meta property="og:title" content="Développeuse en recherche d'emploi - Aurélie Maillot"/>
+  <meta property="og:image" content="src/img/og_image.jpg"/>
+  <meta property="og:description" content="Bonjour, je suis Aurélie, Développeuse spécialisée en PHP / Symfony, actuellement en recherche d'emploi dans la région de Nantes."/>
+  <meta name="twitter:title" content="Développeuse en recherche d'emploi - Aurélie Maillot"/>
+  <meta name="twitter:card" content="summary_large_image"/>
+  <meta name="twitter:image" content="src/img/og_image.jpg"/>
+  <meta name="twitter:description" content="Bonjour, je suis Aurélie, Développeuse spécialisée en PHP / Symfony, actuellement en recherche d'emploi dans la région de Nantes."/>
+	<link href="https://unpkg.com/tailwindcss/dist/tailwind.min.css" rel="stylesheet"/>
+	<link href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.7.0/animate.min.css" rel="stylesheet"/>
+	<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.15.4/css/all.css"
+  			integrity="sha384-DyZ88mC6Up2uqS4h/KRgHuoeGwBcD4Ng9SiP4dIRy0EXTlnuz47vAwmeGwVChigm" crossorigin="anonymous"/>
+</head>
+
+<body class="bg-yellow-50 font-sans leading-normal tracking-normal flex flex-col h-screen">
+
+	<!-- Header -->
+	<div class="w-full m-0 p-0 bg-cover bg-bottom" style="background-image:url('https://images.unsplash.com/photo-1614587450665-69eaf5497e8f?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=1170&q=80'); height: 55vh; max-height:460px;">
+		<div class="container max-w-4xl mx-auto pt-10 md:pt-20 text-center break-normal">
+			<div class="flex flex-wrap justify-center">
+  			<div class="w-32 md:w-52 pb-2">
+    			<img src="src/img/photo_profil.jpeg" alt="Photo profil" class="shadow rounded-full max-w-full h-auto align-middle border-none"/>
+  			</div>
+			</div>
+			<p class="text-white font-extrabold text-3xl md:text-5xl">Aurélie Maillot</p>
+			<p class="text-xl md:text-2xl text-white">Développeuse web</p>
+		</div>
+	</div>
+	<!-- / Header -->
+		
+	<!-- Container -->
+	<div class="container px-4 md:px-0 max-w-6xl mx-auto -mt-32 flex-grow">
+		<div class="mx-0 sm:mx-6">
+				
+			<!-- Nav -->
+			<nav class="mt-0 w-full">
+				<div class="container mx-auto">
+					<div class="flex justify-end">		
+						<a class="inline-block text-white text-2xl hover:text-white text-center p-2 md:h-auto md:p-4 avatar" data-tippy-content="Linkedin" href="https://www.linkedin.com/in/aureliem07/">
+							<i class="fab fa-linkedin"></i>
+						</a>
+						<a class="inline-block text-white text-2xl hover:text-white hover:text-underline text-center p-2 md:h-auto md:p-4 avatar" data-tippy-content="GitHub" href="https://github.com/aureliem07">
+							<i class="fab fa-github"></i>
+						</a>
+					</div>
+				</div>
+			</nav>
+			<!-- Nav -->
+
+			<div class="bg-yellow-50 w-full text-xl md:text-2xl text-gray-800 leading-normal rounded-t">
+					
+				<!-- Lead Card -->
+				<div class="flex h-full bg-white rounded overflow-hidden shadow-lg">
+					<div class="w-full flex flex-col flex-grow">
+						<div class="flex-1 bg-white rounded-t rounded-b-none overflow-hidden shadow-lg py-4 md:py-10">
+							<div class="flex justify-center">
+								<img src="https://cdn.pixabay.com/photo/2016/06/03/08/18/oops-1432954_960_720.png" alt="en construction" class="w-28 md:w-64">
+							</div>
+							<p class="text-base md:text-xl text-center md:text-lg text-gray-900 p-4">Oups ! Ce projet sera mis en ligne prochainement. <br> En attendant, tu peux voir l'avancement de tous mes projets sur <a href="https://github.com/aureliem07" class="font-semibold text-yellow-700 hover:underline">ma page GitHub.</a></p>
+						</div>
+					</div>
+				</div>
+				<!-- / Lead Card -->
+
+			</div>
+		</div>
+	</div>
+
+	<!-- Footer -->
+	<footer>	
+		<div class=" bg-cover bg-bottom h-12 p-2 mt-10" style="background-image:url('https://images.unsplash.com/photo-1614587450665-69eaf5497e8f?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=1170&q=80')">
+			<p class="text-center text-white font-semibold">
+				© 2021 Aurélie MAILLOT
+			</p>
+		</div>
+	</footer>
+	<!-- / Footer -->
+
+	<script src="https://unpkg.com/popper.js@1/dist/umd/popper.min.js"></script>
+	<script src="https://unpkg.com/tippy.js@4"></script>
+	<script>
+		//Init tooltips
+		tippy('.avatar')
+	</script>
+</body>
+</html>
